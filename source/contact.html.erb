@@ -1,0 +1,23 @@
+---
+title: Team
+---
+
+<div class="welcome text-center padded">
+  <h1>contact</h1>
+
+
+<h2>Our Team</h2>
+
+<!-- Text input-->
+<% data.team.each do |member| %>
+<div class="teammembers">
+ <%= image_tag member.image, class: "img-circle" %>
+<h3><%= member.name %></h3>
+<p><%= member.job %></p>
+</div>
+<% end %>
+</div>
+
+
+<!-- .contact -->
+
