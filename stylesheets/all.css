@@ -9318,19 +9318,28 @@ button.close {
 /* line 3, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_contact.scss */
 .teammembers {
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin: 25px; }
+
+/* line 7, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_contact.scss */
+.team {
+  margin: 50px; }
+
+/* line 11, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_contact.scss */
+.contact-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px; }
 
 /* line 1, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .banner {
   background-image: url(https://placekitten.com/g/900/400);
   background-size: cover;
-  height: 350px;
+  height: 600px;
   position: relative; }
 
 /* line 7, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .banner-content {
-  padding: 100px; }
+  padding: 150px; }
 
 /* line 10, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .banner-shadow {
@@ -9345,46 +9354,56 @@ button.close {
 h1 {
   color: white;
   font-weight: bold;
-  font-size: 40px; }
+  font-size: 55px; }
 
 /* line 26, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .slogan {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   font-family: Open-sans, sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  margin-bottom: 40px; }
 
-/* line 33, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 34, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .home-feature {
   font-family: 'Raleway', sans-serif;
   font-size: 20px; }
 
-/* line 38, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 39, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .features {
   margin-top: 50px;
   margin-bottom: 150px; }
 
-/* line 43, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 44, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 #map {
   margin-top: 50px; }
 
-/* line 47, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 48, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 .footer {
+  padding: 25px;
   margin-top: 50px;
-  height: 200px;
+  height: 250px;
   background-color: #bdc3c7; }
 
-/* line 53, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
-.socialmedia {
-  padding-top: 50px;
-  margin: 5px;
+/* line 55, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+.smlinks {
   font-size: 40px;
-  color: #34495e; }
+  color: white;
+  padding: 7px; }
 
-/* line 60, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 61, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
 a:hover {
   color: #2c3e50;
   text-decoration: none; }
+
+/* line 66, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+.newsletter {
+  right: 0px; }
+
+/* line 69, /Users/gregoire/code/boilerplate/source/stylesheets/pages/_home.scss */
+.love {
+  text-align: center;
+  margin: auto; }
 
 /*
 ==============================================
