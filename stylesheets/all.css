@@ -10,11 +10,6 @@
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif; }
 
-/* line 48, /Users/gregoire/code/boilerplate/source/stylesheets/config/_variables.css.scss */
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px; }
-
 /* -------------------------------------
  * Bootstrap sass variable
  * (see http://getbootstrap.com/customize/#less-variables)
