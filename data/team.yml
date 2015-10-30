@@ -1,0 +1,12 @@
+- name: John
+  image: http://api.randomuser.me/portraits/men/1.jpg
+  job: CEO
+- name: Paul
+  image: http://api.randomuser.me/portraits/men/2.jpg
+  job: Integrator
+- name: George
+  image: http://api.randomuser.me/portraits/men/3.jpg
+  job: Ninja developer
+- name: Ringo
+  image: http://api.randomuser.me/portraits/men/4.jpg
+  job: Marketing intern
