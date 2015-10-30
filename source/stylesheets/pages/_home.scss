@@ -1,11 +1,11 @@
 .banner {
   background-image:url(https://placekitten.com/g/900/400);
   background-size: cover;
-  height: 350px;
+  height: 600px;
   position: relative;
 }
 .banner-content{
-  padding: 100px;
+  padding: 150px;
 }
 .banner-shadow {
   background-image: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(41,137,216,0) 100%);
@@ -20,14 +20,15 @@
 h1 {
   color:white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .slogan {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   font-family: Open-sans, sans-serif;
   font-style: italic;
+  margin-bottom:40px;
 }
 
 .home-feature {
@@ -45,19 +46,23 @@ h1 {
 }
 
 .footer {
+  padding:25px;
   margin-top:50px;
-  height:200px;
+  height:250px;
   background-color: #bdc3c7;
 }
 
-.socialmedia {
-  padding-top:50px;
-  margin:5px;
+.smlinks {
   font-size:40px;
-  color:#34495e;
+  color:white;
+  padding:7px;
 }
 
 a:hover {
     color: #2c3e50;
     text-decoration:none;
+}
+
+.newsletter {
+  right:0px;
 }
