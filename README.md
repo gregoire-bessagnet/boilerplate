@@ -1,4 +1,3 @@
-## Démarrer un nouveau projet.
+A splash page coded with the devcamp Le Wagon > https://www.lewagon.com/fr/bordeaux
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+All about petfood, Ruby and **Middleman**.
