@@ -3,8 +3,13 @@
   background: white;
   &-logo {
     width: 50px;
-    float: left;
   }
+  h1 {
+    display:inline;
+    font-size:20px;
+    color:black;
+  }
+
   &-container {
     display: flex;
     height: 70px;
