@@ -1,5 +1,8 @@
-<nav class="navbar-wagon">
-  <div class="container navbar-wagon-container">
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <% link_to "/", class: "navbar-wagon-brand" do %>
+    <%= image_tag "lewagon.png" %>
+  <% end %>
 
     <a href="/">
       <img src="logo.png" class="navbar-wagon-logo"> <h1 class="navbar-wagon-logo">Catooly</h1>
@@ -8,14 +11,14 @@
 
     <div class="navbar-wagon-pusher"></div>
 
-    <form action="" class="navbar-wagon-search hidden-xs hidden-sm">
+<!--     <form action="" class="navbar-wagon-search hidden-xs hidden-sm">
       <input type="text" class="navbar-wagon-search-input" placeholder="Find yummy products !">
+
       <button type="submit" class="navbar-wagon-search-btn">
         <i class="fa fa-search"></i>
       </button>
-    </form>
+    </form> -->
     <hr class="hidden-xs hidden-sm">
-
 
     <a href="/" class="navbar-wagon-item navbar-wagon-link">Home</a>
     <a href="/team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
@@ -23,14 +26,18 @@
     <hr>
 <!--     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="icon-badge-container">
+
+
         <i class="fa fa-envelope-o"></i>
-        <div class="icon-badge icon-badge-blue">3</div>
+        <div class="badge badge-blue">3</div>
       </div>
+
     </a> -->
     <hr>
 <!--     <div class="navbar-wagon-item">
       <div class="dropdown">
         <img src="http://api.randomuser.me/portraits/men/3.jpg" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -41,4 +48,3 @@
     <hr>
     <a href="" class="navbar-wagon-item navbar-wagon-button btn"><strong>Call us !</strong></a>
   </div>
-</nav>

@@ -39,9 +39,9 @@ activate :autoprefixer
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
+# configure :development do
+#   activate :livereload
+# end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -73,6 +73,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+  #
+  require_relative "./lib/build_cleaner"
+  activate :build_cleaner
 end
 
 # Deployment
